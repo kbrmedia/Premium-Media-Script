@@ -127,7 +127,18 @@ class Media{
 	 */
 	public function asObject(){
 		return json_decode($this->Response);
-	}	
+	}
+
+	/**
+	 * Get Response as JSON
+	 * @author KBRmedia <http://gempixel.com>
+	 * @version 1.0
+	 * @return  [type] [description]
+	 */
+	public function asJSON(){
+		return $this->Response;
+	}		
+		
 	/**
 	 * Get Single Media
 	 * @author KBRmedia <http://gempixel.com>
