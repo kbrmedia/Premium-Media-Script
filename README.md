@@ -9,7 +9,7 @@ Send us pull requests and help improve the code.
 The official API wrapper for [Premium Media Script](https://gempixel.com/demo/media)
 
 ## Your first integration
-The example below shows set it up. You need to get your API key from the settings page of the admin control panel
+The example below shows how to set it up. You need to get your API key from the settings page of the admin control panel
 
 ```php
 /**
