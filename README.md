@@ -1,12 +1,10 @@
 Premium Media Script
 ========================
-Official PHP API wrapper for Premium Media Script API.
 
 ## Help Contribute
 Send us pull requests and help improve the code.
 
-Premium Media Script PHP API Wrapper
-==================
+# Premium Media Script PHP API Wrapper
 
 The official API wrapper for [Premium Media Script](https://gempixel.com/demo/media)
 
