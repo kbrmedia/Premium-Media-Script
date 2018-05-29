@@ -41,9 +41,9 @@ Search media by sending filters & a keyword
 /**
  * Search Endpoint
  * Get data for searched media
- * @param integer Limits
- * @param string Order: date, votes, views
- * @param integer currentpage
+ * @param integer Limits (optional)
+ * @param string Order: date, votes, views (optional)
+ * @param integer currentpage (optional)
  * @param string keyword
  */
 
@@ -56,9 +56,9 @@ Get user's uploads by sending filters & the user
 ```php
 /**
  * User's upload
- * @param integer Limits
- * @param string Order: date, votes, views
- * @param integer currentpage
+ * @param integer Limits (optional)
+ * @param string Order: date, votes, views (optional)
+ * @param integer currentpage (optional)
  * @param string username
  */
 $media->setLimit("10")->setOrder("date")->setPage("1")->user("admin")->asObject();
